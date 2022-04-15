@@ -1,16 +1,16 @@
-var timer = null;
-function displayClock(num) {
-  //num是传入的startClock中的动态值
-  if (num < 10) {
-    return "0" + num;
-  } else {
-    return num;
-  }
-}
-//停止计时
-function stopClock() {
-  clearTimeout(timer);
-}
+// var timer = null;
+// function displayClock(num) {
+//   //num是传入的startClock中的动态值
+//   if (num < 10) {
+//     return "0" + num;
+//   } else {
+//     return num;
+//   }
+// }
+// //停止计时
+// function stopClock() {
+//   clearTimeout(timer);
+// }
 //开始计时
 function startClock() {
   const bornTime = new Date("2022-03-30T00:33:00+02:00");
