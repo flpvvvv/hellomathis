@@ -5,8 +5,12 @@ body {
   text-align: center;
 }
 
-p {
+#showDetail {
   font-size: 1.8em;
+}
+
+#showDays {
+  font-size: 1.5em;
 }
 
 h1 {
