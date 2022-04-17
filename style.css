@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: rgb(16, 26, 76);
+  background: rgb(245, 245, 247);
   text-align: center;
 }
 
@@ -15,4 +16,11 @@ h1 {
 img {
   height: 200px;
   width: 200px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(245, 245, 247);
+    background: rgb(18, 18, 18);
+  }
 }
