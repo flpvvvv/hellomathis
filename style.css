@@ -22,14 +22,14 @@ img {
   width: 200px;
 }
 
-ul {
+.list--centre-justify { 
   font-size: 1.5em;
-  position: relative;
-  display: inline-block;
-  padding-left: 1em;
-  left: 5%;
-  transform: translateX(-50%);
-}
+  display: grid; 
+  place-items: center; 
+  text-align: left;
+} 
+
+li {padding-left:1em}
 
 @media (prefers-color-scheme: dark) {
   body {
