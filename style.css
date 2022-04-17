@@ -22,6 +22,15 @@ img {
   width: 200px;
 }
 
+ul {
+  font-size: 1.5em;
+  position: relative;
+  display: inline-block;
+  padding-left: 1em;
+  left: 5%;
+  transform: translateX(-50%);
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: rgb(245, 245, 247);
